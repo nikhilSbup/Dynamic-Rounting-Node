@@ -11,6 +11,10 @@ app.get("/",function(req,res){
     res.render("index")
 })
 
+app.get("/profile/:username",function(req,res){
+    res.send(`welcome ${req.params.username}`)
+})
+
 app.listen(3000,function(){
     console.log("port is running : http://localhost:3000/" )
 })
