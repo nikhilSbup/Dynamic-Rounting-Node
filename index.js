@@ -15,6 +15,10 @@ app.get("/profile/:username",function(req,res){
     res.send(`welcome ${req.params.username}`)
 })
 
+app.get("/author/:username/:age",function(req,res){
+    res.send(`Author name: ${req.params.username} , age: ${req.params.age}`)
+})
+
 app.listen(3000,function(){
     console.log("port is running : http://localhost:3000/" )
 })
