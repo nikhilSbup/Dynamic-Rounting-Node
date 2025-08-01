@@ -7,4 +7,26 @@ Dynamic routing
 
 setting up parser for form 
 setting up ejs for ejs pages
+        install ejs
+        setup ejs as a view engine
 setting up public static files
+
+
+--------------------
+Dynamic routing: hum lg kai baar kuch routes dekhte hai unmein sirf ek hi hissa change hota hai
+        /author/harsh
+        /author/harshit
+        /author/harshita
+        /author/harshika
+
+        /profile/harsh
+        /profile/harshit
+        
+        /like/abcdef
+        /author/qwerty
+
+my easy steps:
+   1. sabse phle browser par jao
+   2. type url that you want and press enter
+   3. now us url ka route create kijiye
+------------------
